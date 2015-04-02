@@ -1,6 +1,6 @@
 <?php
 /**
- * @copyright Copyright (c) 2013 2amigOS! Consulting Group LLC
+ * @copyright Copyright (c) 2013-2015 2amigOS! Consulting Group LLC
  * @link http://2amigos.us
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
@@ -20,11 +20,11 @@ use yii\web\AssetBundle;
 class MakiMarkerAsset extends AssetBundle
 {
 
-	public $sourcePath = '@vendor/2amigos/yii2-leaflet-makimarker-plugin/assets';
+    public $sourcePath = '@vendor/2amigos/yii2-leaflet-makimarker-plugin/assets';
 
-	public $js = ['js/Leaflet.MakiMarkers.js'];
+    public $js = ['js/Leaflet.MakiMarkers.js'];
 
-	public $depends = [
-		'dosamigos\leaflet\LeafLetAsset',
-	];
-} 
+    public $depends = [
+        'dosamigos\leaflet\LeafLetAsset',
+    ];
+}
