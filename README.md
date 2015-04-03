@@ -63,6 +63,13 @@ $marker = new Marker([
 
 ```
 
+Testing
+-------
+
+```bash
+$ ./vendor/bin/phpunit
+```
+
 Contributing
 ------------
 
